@@ -1,0 +1,354 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 14px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.background {
+    text-align: center;
+    margin: 0 auto;
+    background-image: -moz-linear-gradient(top, #EEF9FE, #D3EFFC); /*火狐*/
+    background: -o-linear-gradient(top, #EEF9FE 0%, red 100%); /*Opera*/
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EEF9FE), color-stop(1, #D3EFFC)); /*Chrome*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEF9FE', endColorstr='#D3EFFC', GradientType='0'); /*IE*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 900;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: none;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+.head {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+
+}
+
+.lg1 {
+    position: absolute;
+    width: 170px;
+    left: 0px;
+    top: -50px;
+
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+ul#nav {
+    height: 60px;
+    background: #195AA7;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+ul#nav li {
+    display: inline-block;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    line-height: 60px;
+}
+
+ul#nav li a {
+    width: 110px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul#nav li a:hover {
+    background: #000082;
+    border-bottom: 3px solid #000066;
+}
+
+ul#nav .visited {
+    width: 110px;
+    line-height: 60px;
+    display: inline-block;
+    color: #FFF;
+    background: #000082;
+    border-bottom: 3px solid #000066;
+}
+
+.clear {
+    clear: both;
+}
+
+/*introduction*/
+
+.intcontainer {
+    margin-top: 20px;
+}
+
+.intcontainer img {
+    width: 70%;
+    height: 350px;
+}
+
+.intcontainer p {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    text-indent: 2em;
+    line-height: 2em;
+    text-align: left;
+    color: #444;
+    font-size: 1.1em;
+}
+
+/*introduction end*/
+
+/*research*/
+.recontainer {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.recontainer p {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    text-indent: 2em;
+    line-height: 2em;
+    text-align: left;
+    color: #444;
+    font-size: 1.1em;
+
+}
+
+.reimg {
+    margin: 0 auto;
+    max-width: 700px;
+    width: expression(this.width > 700 ? "500px" : this.width);
+}
+
+/*research*/
+
+/*directionlist start*/
+
+.prolist {
+    width: 85%;
+    margin: 3% auto;
+    line-height: 2em;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 2px solid #BBBBBB;
+    display: table;
+}
+
+.prolist ul li {
+    list-style: none;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 60%;
+}
+
+.prolist ul li span {
+    display: block;
+    margin-top: 10px;
+    line-height: 1.5em;
+    margin-left: 2em;
+}
+
+.direcright ul li span a {
+    text-decoration: none;
+    color: #444;
+}
+
+.direcright ul li span a:hover {
+    color: #222;
+    border-bottom: 1px solid #222;
+}
+
+/*.prolist i{
+    display: table-cell;
+    vertical-align: middle;
+}*/
+.prolist img {
+    width: 35%;
+    float: right;
+    margin-top: 3%;
+}
+
+.li11 {
+    text-align: left;
+    font-size: 1.7em;
+    margin: 3% auto;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap; /*强制在同一行内显示所有文本，直到文本结束或者遭遇 br 对象*/
+    color: #222;
+}
+
+.li12 {
+
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #222;
+    text-indent: 2em;
+}
+
+.prolistrt {
+    width: 85%;
+    display: table;
+    margin: 3% auto;
+    line-height: 2em;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 2px solid #BBBBBB;
+}
+
+.prolistrt ul li {
+    list-style: none;
+    text-align: left;
+    display: block;
+    float: right;
+    width: 60%;
+}
+
+.prolistrt ul li span {
+    display: block;
+    margin-left: 2em;
+    margin-top: 10px;
+    line-height: 1.5em;
+}
+
+/*.prolistrt i{
+    display: table-cell;
+    vertical-align: middle;
+}*/
+.prolistrt img {
+    width: 35%;
+    float: left;
+    /*margin-top: 3%;*/
+}
+
+.li21 {
+    text-align: left;
+    font-size: 1.7em;
+    margin: 3% auto;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap; /*强制在同一行内显示所有文本，直到文本结束或者遭遇 br 对象*/
+    color: #222;
+}
+
+.li22 {
+
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #222;
+    text-indent: 2em;
+}
+
+.paperp {
+
+    color: #195AA7;
+    line-height: 3em;
+    background: #DFDFDF;
+    font-weight: bold;
+    border-left: #FF9933 solid 7px;
+}
+
+/*directionlist end*/
+
+/*pics*/
+.pics {
+    position: relative;
+    width: 80%;
+    margin: 3% auto;
+
+}
+
+.imgs img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*pics*/
+
+/*teachers*/
+.teachers {
+    float: left;
+    width: 450px;
+    height: 220px;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.teachers img {
+    float: left;
+    margin: 20px;
+}
+
+.teachers ul {
+    display: block;
+    margin-left: 20px;
+    text-align: left;
+    list-style: none;
+}
+
+.teachers ul li {
+    line-height: 1.5em;
+}
+
+.teachers ul li a:link, .teachers ul li a:visited {
+    text-decoration: none;
+    color: #585858;
+}
+
+.teachers ul li a:hover {
+    color: black;
+}
+
+/*people*/
+
+/*paper*/
+
+.bottom {
+    min-height: 90px;
+    font-size: 1em;
+    color: #272822;
+    text-align: center;
+    line-height: 2em;
+    margin-top: 50px;
+    border-top: 6px solid #195AA7;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.bottom a:hover {
+    color: #195AA7;
+}
+
+.back {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 20px;
+    height: 20px;
+}
