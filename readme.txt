@@ -1,6 +1,3 @@
-Thanks for downloading this theme!
+iLab_web source code
 
-Theme Name: Moderna
-Theme URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-Author: BootstrapMade
-Author URL: https://bootstrapmade.com
+ilab.tongji.edu.cn
